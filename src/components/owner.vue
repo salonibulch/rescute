@@ -177,7 +177,19 @@ import firebase from "firebase";
         color: black;
         text-decoration: none;
     }
-
+    #addButton{
+           color: white;
+           background-color: #65CCB7;
+           margin: 20px;
+           padding-left: 40px;
+           padding-right: 40px;
+           padding-top: 12px;
+           padding-bottom: 12px;
+       }
+       #addButton:hover {
+           background-color: #40a893;
+           color: white;
+       }
     #singlePet{
         border-radius: 10px;
         background-color: white;
